@@ -1,0 +1,74 @@
+<!--Doctype-->
+<!Doctype html>
+<!--head-->
+<html>
+<head>
+    <title>Resource Table Site</title>
+    <meta name="author" content="Jose Ramirez"
+    <meta name="description" content="This is a site that we use to list resources for web development.">
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <style>
+    body {
+        background-color:lightpink;
+    }
+    h1 {
+        font-size: 24pt;
+    }
+    </style>
+
+</head>
+<!--Body-->
+<body>
+    <!--Header text for our site-->
+    <!-- THe style attribute below is an example of an inline style-->
+    <!-- Inline stlyes are when we are staying the element within the tag for the element-->
+    <h1 style="color: green;">My Web Development Resources</h1>
+    <!--This is an anchor tag, which to link to stuff-->
+    <!--THe href attribute is the URL that the anchor tag navigates to-->
+    <!-- The target attributes determines how the the link is opened by our browser (_blank opens a new tab)-->
+    <!--<a href=https://www.Google.com target="_blank">Google</a>
+    This is the container for an HTML table-->
+    <table>
+        <!--Tables in HTML consist of multiple rows and columns. Each row will have a data that will stored in each column-->
+        <!--Tables can also have headers for the columns that we display -->
+        <!-- Each row for our table is a tr element-->
+        <tr>
+            <!--th element are a table header-->
+            <th>Resource</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <!-- td element are table data-->
+            <td>W3Schools</td>
+            <td>Web Development Tutorials and Documentation</td>
+            <td>
+                <a href="https://www.w3schools.com" target="_blank">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mozilla</td>
+            <td>Resources for developers</td>
+            <td>
+                <a href="https://developer.mozilla.org/en-US/" target="_blank">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Stack Overflow</td>
+            <td>The Ultimate place to ask questions about coding</td>
+            <td>
+                <a href="https://stackoverflow.com/" target="_blank">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Chrome Devtools</td>
+            <td>Set of web developmen tools built directly into the Google Chrome</td>
+            <td>
+                <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">Link</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
